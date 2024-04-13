@@ -1,13 +1,16 @@
-body{
+.body-index{
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: 0;
     font-style: normal;
     background-image: url(../../assets/textura-grano-fondo.jpg);
     background-size: cover;
-    width: 100%;
-    height: auto;
-
-
-    
+}
+.body-pages{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 0;
+    font-style: normal;
+    background-image: url(../../assets/grano3200.jpg);
+    background-size: contain;
 }

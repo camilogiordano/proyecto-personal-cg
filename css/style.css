@@ -5,20 +5,26 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
+.body-index {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   font-weight: 0;
   font-style: normal;
   background-image: url(../../assets/textura-grano-fondo.jpg);
-  background-size: cover;
-  width: 100%;
-  height: auto; }
+  background-size: cover; }
+
+.body-pages {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+  background-image: url(../../assets/grano3200.jpg);
+  background-size: contain; }
 
 header {
   background-color: rgba(255, 255, 255, 0.2);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 65px; }
@@ -37,22 +43,22 @@ header {
       header nav ul li a:hover {
         color: #bebebe; }
 
-main {
+.main-index {
   display: grid; }
-  main section {
+  .main-index section {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
     height: 900px; }
-    main section hr {
+    .main-index section hr {
       border: none;
       height: 2px;
       background-color: white;
       margin: 0px 30%;
       margin-bottom: 30px; }
-  main div {
+  .main-index div {
     display: grid;
     overflow-wrap: break-word;
     justify-content: space-between;
@@ -65,12 +71,12 @@ main {
     justify-items: center;
     gap: 3.125rem;
     margin-bottom: 50px; }
-    main div img {
+    .main-index div img {
       max-width: 300px;
       max-height: 300px;
       margin: 15px;
       border-radius: 5px; }
-    main div p {
+    .main-index div p {
       color: white;
       font-family: "League Spartan", sans-serif;
       font-optical-sizing: auto;
@@ -93,6 +99,69 @@ footer {
   height: 65px;
   padding-left: 1rem;
   bottom: 1; }
+
+.r01 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 75px;
+  padding: 100px; }
+  .r01 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r02 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r02 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r03 {
+  display: grid;
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r03 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r04 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r04 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r05 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r05 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r06 {
+  display: grid;
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r06 img {
+    max-width: 100%;
+    max-height: auto; }
+
+.r07 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0px 100px 100px 100px;
+  gap: 75px; }
+  .r07 img {
+    max-width: 100%;
+    max-height: auto; }
 
 h1 {
   color: #e8e8e8;
