@@ -1,21 +1,73 @@
 @media (max-width: 768px){
-    .Presentacion{
-        display: flex;
-        flex-direction: column;
-        padding: 0px 20px;
-        gap: .3125rem
+    header{
+        height: 45px;
+        a{
+            img{
+                max-width: 25px;
+            }
+        }
+        nav{
+            ul{
+                padding: 12px;
+                gap: 12px;
+                li{
+                    a{
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+    .main-index{
+        section{
+            height: 400px;
+            gap: 45px;
+            h1{
+                font-size: 4rem;
+            }
+            h2{
+                font-size: 2rem;
+            }
+        }
+        div{
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-template-rows: 55% 45%;
+            align-content: center;
+            margin-bottom: 50px;
+
+            gap: 0;
+            img{
+                max-width: 175px;
+                max-height: 175px;
+            }
+            p{
+                font-size: 1rem;
+                margin-bottom: 50px;
+
+                
+            }
+        }
+    }
+    footer{
+        height: 45px;
+        div{
+            h6{
+                font-size: 0.7rem;
+            }
+        }
+        div{
+            p{
+                font-size: 0.7rem;
+            }
+            a{
+                img{
+                    max-height: 15px;
+                }
+            }
+        }
     }
     
-    .Presentacion img{
-        max-width: 250px;
-        max-height: 250px;
-        padding: 0px;
-    }
-    
-    .Presentacion p{
-        font-size: 1em;
-        padding: 0px;
-    }
 
     h3 {
         padding-left: 30px;
