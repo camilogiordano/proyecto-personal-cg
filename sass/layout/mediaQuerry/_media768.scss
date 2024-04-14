@@ -1,0 +1,59 @@
+@media (max-width: 768px){
+    .Presentacion{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        gap: .3125rem
+    }
+    
+    .Presentacion img{
+        max-width: 250px;
+        max-height: 250px;
+        padding: 0px;
+    }
+    
+    .Presentacion p{
+        font-size: 1em;
+        padding: 0px;
+    }
+
+    h3 {
+        padding-left: 30px;
+        font-size: 5.3vh;
+    }
+
+    h4{
+        color: rgb(232, 232, 232);
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        text-align: left;
+        font-size: 40px;
+        padding-left: 150px;
+        margin-bottom: 9.375rem;
+    }
+
+    .iframeh4 {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .iframeh4 iframe {
+        width: 90%;
+    }
+
+    h5 {
+        height: 20px;
+        text-align: center;
+        font-size: 20px;
+        padding: 10%;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 10px;
+        padding: 10%;
+    }
+
+}

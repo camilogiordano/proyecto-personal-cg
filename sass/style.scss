@@ -9,8 +9,11 @@
 @import "./layout/main-backstage";
 @import "./layout/main-contacto";
 @import "./layout/footer";
+@import "./layout/mediaQuerry/media768";
+@import "./layout/mediaQuerry/media320";
 
 @import "./components/galeriaretratos";
 @import "./components/h";
 @import "./components/iframeBandas";
 @import "./components/carouselBandas";
+@import "./components/formulario";

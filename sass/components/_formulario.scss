@@ -1,0 +1,55 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        padding-bottom: 50px;
+        width: 100%;
+        max-width: 600px;
+    }
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+    input, textarea{
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid white;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    label{
+        height: 100%;
+        position: absolute;
+        padding: 20px;
+        left: 0;
+        top: 0;
+        cursor: text;
+        color: white;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+}
+.boton{
+    display: flex;
+    justify-content: flex-end;
+    button{
+        padding: 10px 0;
+        color: white;
+        outline: none;
+        background: transparent;
+        border: 3px solid white;
+        width: 50%;
+        cursor: pointer;
+        border-radius: 5px;
+        font-family: "League Spartan", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+}
