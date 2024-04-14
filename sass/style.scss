@@ -9,12 +9,16 @@
 @import "./layout/main-backstage";
 @import "./layout/main-contacto";
 @import "./layout/footer";
-@import "./layout/mediaQuerry/768/header-footer768";
-@import "./layout/mediaQuerry/768/index768";
-@import "./layout/mediaQuerry/768/retratos768";
+
+
 
 @import "./components/galeriaretratos";
 @import "./components/h";
 @import "./components/iframeBandas";
 @import "./components/carouselBandas";
 @import "./components/formulario";
+
+@import "./layout/mediaQuerry/768/header-footer768";
+@import "./layout/mediaQuerry/768/index768";
+@import "./layout/mediaQuerry/768/retratos768";
+@import "./layout/mediaQuerry/768/bandas768";
