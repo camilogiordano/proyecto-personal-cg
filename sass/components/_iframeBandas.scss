@@ -1,13 +1,15 @@
 .iframeh4{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
     margin-top: 100px;
     padding-left: 30px;
     padding-right: 30px;
-    gap: .625rem;
+    iframe {
+    max-width: 30%;
+    }
+    
 }
-
-.iframeh4 iframe {
-    max-width: 400px;
+.padd-bottom{
+    padding-bottom: 50px;
 }

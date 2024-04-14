@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  line-height: 0; }
+
 .body-index {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
@@ -20,6 +23,11 @@
   font-style: normal;
   background-image: url(../../assets/grano3200.jpg);
   background-size: contain; }
+
+nav ul {
+  margin: 0; }
+  nav ul li {
+    margin: 0; }
 
 header {
   background-color: rgba(255, 255, 255, 0.2);
@@ -51,13 +59,13 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
-    height: 900px; }
+    height: 900px;
+    gap: 75px; }
     .main-index section hr {
       border: none;
       height: 2px;
       background-color: white;
-      margin: 0px 30%;
-      margin-bottom: 30px; }
+      margin: 0px 30%; }
   .main-index div {
     display: grid;
     overflow-wrap: break-word;
@@ -89,16 +97,89 @@ header {
       padding-bottom: 20px;
       justify-content: center; }
 
+.hr-line {
+  border: none;
+  height: 2px;
+  background-color: white;
+  margin: 60px 7%; }
+
+.body-pages main div h3 {
+  padding: 120px 150px 150px 150px;
+  line-height: 0; }
+
+.galerias-rodaje {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  padding-bottom: 30px; }
+
+.Titulo-rodaje {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 30px;
+  padding-right: 50px; }
+  .Titulo-rodaje a img {
+    max-width: 200px;
+    max-height: auto; }
+
+.galeria {
+  width: auto;
+  height: 585px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 12px; }
+
+.galeria::-webkit-scrollbar {
+  width: 10px; }
+
+.galeria::-webkit-scrollbar-track {
+  background: #4b4b4b; }
+
+.galeria::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 5px; }
+
+.galeria::-webkit-scrollbar-thumb:hover {
+  background: #eeeeee; }
+
 footer {
   position: absolute;
   list-style-type: none;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.119);
   width: 100%;
   height: 65px;
   padding-left: 1rem;
+  padding-right: 1rem;
   bottom: 1; }
+  footer div h6 {
+    margin-bottom: 0;
+    line-height: 0; }
+  footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px; }
+    footer div p {
+      color: #e8e8e8;
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: italic;
+      text-align: left;
+      font-size: 1rem;
+      margin-bottom: 0; }
+    footer div a img {
+      max-height: 30px; }
 
 .r01 {
   display: grid;
@@ -187,8 +268,8 @@ h3 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 60px;
-  padding-top: 8.125rem; }
+  font-size: 4.5rem;
+  text-align: left; }
 
 h4 {
   color: #e8e8e8;
@@ -196,20 +277,18 @@ h4 {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  text-align: left;
-  font-size: 40px;
-  padding-left: 150px;
-  margin-bottom: 9.375rem; }
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 1.4; }
 
 h5 {
   color: #e8e8e8;
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
-  text-align: left;
-  font-size: 40px;
-  padding-left: 9rem; }
+  text-align: right;
+  font-size: 3rem; }
 
 h6 {
   color: #e8e8e8;
@@ -219,3 +298,26 @@ h6 {
   font-style: italic;
   text-align: left;
   font-size: 1rem; }
+
+.subtituloLight {
+  font-size: 1.5rem;
+  font-weight: 100; }
+
+.iframeh4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px; }
+  .iframeh4 iframe {
+    max-width: 30%; }
+
+.padd-bottom {
+  padding-bottom: 50px; }
+
+.carousel-item img {
+  width: 100%;
+  height: 675px;
+  object-fit: contain;
+  padding-bottom: 20px; }

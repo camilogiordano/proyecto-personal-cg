@@ -1,0 +1,59 @@
+.body-pages{
+    main{
+        div{
+            h3{
+                padding: 120px 150px 150px 150px;
+                line-height: 0;
+            }
+        }
+    }
+}
+
+.galerias-rodaje{
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+        padding-bottom: 30px;
+    }
+
+.Titulo-rodaje{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+    padding-right: 50px;
+    a{
+        img{
+            max-width: 200px;
+            max-height: auto;
+        }
+    }
+}
+
+.galeria{
+    width: auto;
+    height: 585px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 12px;
+}
+.galeria::-webkit-scrollbar {
+    width: 10px;
+}
+.galeria::-webkit-scrollbar-track {
+    background: #4b4b4b; 
+}
+.galeria::-webkit-scrollbar-thumb {
+    background: #9c9c9c; 
+    border-radius: 5px; 
+}
+.galeria::-webkit-scrollbar-thumb:hover {
+    background: #eeeeee; 
+}
+
