@@ -1,0 +1,42 @@
+@media (max-width: 768px){
+    header{
+        height: 45px;
+        a{
+            img{
+                max-width: 25px;
+            }
+        }
+        nav{
+            ul{
+                padding: 12px;
+                gap: 12px;
+                li{
+                    a{
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    
+    footer{
+        height: 45px;
+        div{
+            h6{
+                font-size: 0.7rem;
+            }
+        }
+        div{
+            p{
+                font-size: 0.7rem;
+            }
+            a{
+                img{
+                    max-height: 15px;
+                }
+            }
+        }
+    }
+}
