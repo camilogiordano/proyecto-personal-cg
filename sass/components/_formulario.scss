@@ -1,7 +1,5 @@
 .formulario{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(row,center,center,30px);
     form{
         padding-bottom: 50px;
         width: 100%;

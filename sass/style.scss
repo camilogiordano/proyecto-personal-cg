@@ -1,6 +1,8 @@
+
 @import "./base/reset";
 @import "./base/typografias";
 @import "./base/generales";
+@import "./utilities/mixins.scss";
 
 @import "./layout/header";
 @import "./layout/main-index";
