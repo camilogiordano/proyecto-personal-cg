@@ -29,7 +29,10 @@ footer{
         }
         a{
             img{
-                max-height: 30px;
+                max-height: 24.6px;
+                &:hover{
+                    max-height: 25px;
+                }
             }
         }
     }    
