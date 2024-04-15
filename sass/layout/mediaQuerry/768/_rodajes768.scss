@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+    .Titulo-rodaje{
+        gap: 20px;
+        h4{
+            font-size: 0.75rem;
+        }
+        a{
+            img{
+                max-width: 100px;
+            }
+        }
+    }
+    .galeria{
+        height: 375px;
+    }
+    .galerias-rodaje{
+        section{
+            margin-bottom: 75px;
+        }
+    }
+}

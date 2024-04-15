@@ -1,0 +1,31 @@
+@media (max-width: 320px){
+    .main-index{
+        section{
+            height: 400px;
+            gap: 20px;
+            h1{
+                font-size: 2rem;
+            }
+            h2{
+                font-size: 1rem;
+                padding-top: 14px;
+            }
+        }
+        div{
+            display: grid;
+            grid-template-columns: 2fr;
+            grid-template-rows: 42% 58%;
+            align-content: center;
+            margin-bottom: 50px;
+            gap: 0;
+            img{
+                max-width: 175px;
+                max-height: 175px;
+            }
+            p{
+                font-size: 1rem;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
